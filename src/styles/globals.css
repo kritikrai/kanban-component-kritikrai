@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* { outline-offset: 2px; }
+
+:focus-visible {
+  @apply outline outline-2 outline-primary-500;
+}
